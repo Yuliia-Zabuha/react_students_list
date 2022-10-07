@@ -1,0 +1,96 @@
+.student_info {
+  border-bottom: 1px solid #d9e7ee;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 15px 10px 15px 20px;
+  cursor: pointer;
+}
+
+.student_info:hover {
+  background-color: #d9e7ee;
+}
+
+.student_basic {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.student_img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.student_name {
+  display: flex;
+  flex-direction: column;
+  width: 143px;
+}
+
+.text_name {
+  font-size: 12px;
+  line-height: 16px;
+  color: #212121;
+}
+
+.student_result {
+  display: flex;
+  flex-direction: column;
+}
+
+.text_result {
+  text-align: right;
+  color: #212121;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.s {
+  background-color: #fff0ee;
+  color: #ec6f5d;
+  text-align: center;
+  padding: 2px;
+  border-radius: 3px;
+  width: 22px;
+  display: block;
+}
+
+.g {
+  background-color: #e8f1f5;
+  color: #01315f;
+  text-align: center;
+  padding: 2px;
+  border-radius: 3px;
+  width: 22px;
+  display: block;
+}
+
+.vg {
+  background-color: #e4ffc7;
+  color: #54d226;
+  text-align: center;
+  padding: 2px;
+  border-radius: 3px;
+  width: 22px;
+  display: block;
+}
+
+.ex {
+  background-color: #54d226;
+  color: #fff;
+  padding: 2px 2px;
+  border-radius: 3px;
+  text-align: center;
+  width: 22px;
+  display: block;
+}
+
+.mark {
+  font-size: 10px;
+  line-height: 11px;
+  font-weight: 500;
+}
